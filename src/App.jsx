@@ -1,15 +1,13 @@
 
 import './App.css'
-import Download from './components/Header/Download'
+import Header from './components/Header/Header'
 
 function App() {
+  
 
   return (
     <>
-    <div className="container">
-      <Download />
-    </div>
-    
+      <Header />
     </>
   )
 }

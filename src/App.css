@@ -1,44 +1,60 @@
-.container{
-  width: 1440px;
-  margin: 0 auto;
-
+.header{
+    width: 1300px;
+    height: 600px;
+    /* border: 1px solid; */
+    margin: 0 auto;
 }
-.download__section{
-  width: 100%;
-  height: 600px;
-  border: 1px solid;
+.header__nav{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid; */
+    display: flex;
 }
-.text{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header__nav-logo{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid; */
 }
-.download__image{
-  width: 50%;
-  height: 100%;
+h1{
+    color: #4A99D3;
+    font-size: 40px;
+    margin-top: 10px;
 }
-.download__image img{
-  padding: 80px 0px 0px 100px;
+.header__nav-list{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid; */
 }
-.download__text{
-  width: 50%;
-  height: 100%;
-  text-align: center;
+.header__nav-list_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
 }
-.download__text h2{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-  margin-top: 100px;
+.header__hero{
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid; */
+    display: flex;
 }
-.download__text p{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: gray;
-  width: 500px;
-  margin: 10px 0px 50px 100px;
+.header__hero-text{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid; */
 }
-.download__text img{
-  padding: 0px 15px;
+h2{
+    font-size: 50px;
+    margin-top: 100px;
+}
+span{
+    color: #D81B60;
+}
+p{
+    font-size: 24px;
+}
+.header__hero-img{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid;gi */
 }
