@@ -41,7 +41,6 @@ h1{
 .header__hero-text{
     width: 60%;
     height: 100%;
-    /* border: 1px solid; */
 }
 h2{
     font-size: 50px;
@@ -56,6 +55,9 @@ p{
 * {
     list-style-type: none;
     text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
 }
 .header__hero-img{
     width: 40%;
