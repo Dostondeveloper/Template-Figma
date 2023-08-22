@@ -53,6 +53,10 @@ span{
 p{
     font-size: 24px;
 }
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
 .header__hero-img{
     width: 40%;
     height: 100%;
